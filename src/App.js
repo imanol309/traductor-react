@@ -1,7 +1,12 @@
-export default  function App() {
+
+import AppRouter from "./router/app-router";
+import NavBar from "./components/navbar/navbar";
+
+export default function App() {
   return (
-    <div>
-      App
-    </div>
+    <>
+      <NavBar />
+      <AppRouter />
+    </>
   );
 }
